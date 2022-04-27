@@ -1,0 +1,56 @@
+html, body {
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif, monospace;
+    background-color: #eabf9b;
+}
+
+body:before{
+    content: '';
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: url(watermark.jpg) 0 0 repeat;
+    background-position: center;  
+    opacity: 0.1;
+  }
+
+.container {
+    width: 360px;
+}
+
+#inputField {
+    border-radius: 25px;
+    width: 300px;
+    height: 46px;
+    border: 2px solid rgb(166, 0, 212);
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#addToDo {
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+    color: rgb(166, 0, 212);
+    border: 2px solid rgb(166, 0, 212);
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 35px;
+}
+.to-dos {
+    margin-top: 25px;
+}
+.nav1{
+  margin: 0;
+
+}
